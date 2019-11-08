@@ -2,7 +2,7 @@
   "name": "multroom",
   "version": "1.0.0",
   "description": "Multroom chat, aplicativo do curso de NodeJs com MongoDB",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,8 @@
     "ejs": "^2.7.1",
     "express": "^4.17.1",
     "express-validator": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0"
   }
 }
