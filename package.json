@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/francinha02/multroom/issues"
   },
-  "homepage": "https://github.com/francinha02/multroom#readme"
+  "homepage": "https://github.com/francinha02/multroom#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-validator": "^3.2.0"
+  }
 }
