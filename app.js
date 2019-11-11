@@ -25,5 +25,13 @@ io.on('connection', function (socket) {
             apelido: data.apelido,
             mensagem: data.mensagem
         });
+        if (parseInt(data.apelido_atualizado) == 0) {
+            socket.emit('participantesParaClientes', {
+                apelido: data.apelido
+            });
+            socket.broadcast.emit('participantesParaClientes', {
+                apelido: data.apelido
+            });
+        }
     });
 });
