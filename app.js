@@ -5,6 +5,7 @@ const server = app.listen(80, function () {
 });
 
 const io = require('socket.io').listen(server);
+app.set('io', io);
 
 //Criar a conexão por websocket
 
